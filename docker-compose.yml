@@ -16,8 +16,8 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=dbuser-changethat
-      - POSTGRES_PASSWORD=dbpass=changethat
-      - POSTGRES_DB=dbname-changethat
+      - POSTGRES_USER=dbuser
+      - POSTGRES_PASSWORD=dbpass
+      - POSTGRES_DB=dbname
 volumes:
   postgres_data:
