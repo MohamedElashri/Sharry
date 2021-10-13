@@ -32,4 +32,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: melashri/sharry:latest
+        env:
+          version: 1.9.0
+        
 
