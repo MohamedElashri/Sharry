@@ -1,8 +1,8 @@
 FROM alpine:latest
 
-ARG version= 1.9.0
-ARG sharry_url=https://github.com/eikek/sharry/releases/download/nightly
-ARG TARGETPLATFORM
+ENV version= 1.9.0
+ENV sharry_url=https://github.com/eikek/sharry/releases/download/nightly
+env TARGETPLATFORM
 
 RUN JDKPKG="openjdk11"; \
     if [ "$TARGETPLATFORM" = "linux/arm/v7" ]; then JDKPKG="openjdk8"; fi; \
