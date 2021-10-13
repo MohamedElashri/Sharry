@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-ENV version=1.9.0
-ENV sharry_url=https://github.com/eikek/sharry/releases/download/nightly
+ENV version=
+ENV sharry_url=
 ARG TARGETPLATFORM
 
 RUN JDKPKG="openjdk11"; \
