@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV version= 1.9.0
+ENV version=1.9.0
 ENV sharry_url=https://github.com/eikek/sharry/releases/download/nightly
 env TARGETPLATFORM
 
